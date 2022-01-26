@@ -1,0 +1,16 @@
+div.enc{
+    text-align: center;
+    background-color: black;
+    color: orange;
+    font-weight: bold;
+}
+
+body{
+    background-color: black;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+
+}
