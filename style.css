@@ -14,3 +14,12 @@ p{
     font-weight: bold;
 
 }
+
+div.txt{
+    color: white;
+}
+
+div.ima{
+    position: relative;
+    left: 250px;
+}

@@ -11,10 +11,21 @@
         <script>
             function entrada(){
                 var num = document.getElementById("num").value
+                var nom = document.getElementById("nom").value
+                alert ('Se ha completado la venta'+' '+'de'+' '+ num+' ' +'entradas'+' '+'a'+' '+'nombre'+' '+'de'+' '+ nom )
             }
         </script>
+        <div class="enc"><h2>Compra aquí tus entradas</h2></div>
 
-        <img src="img/ticket.png" alt="No se cargo la imagen">
+       <div class="txt">
+        <form action="enviado.html" method="get">
+       Número de entradas a adquirir: <input type="number" id="num">
+       A que nombre estan las entradas: <input type="text" id=nom onsubmit="entrada()">
+       <p><input type="submit" value="Enviar"></p>
+    </form>
+
+       <div class="ima"> <img src="img/ticket.png" alt="No se cargo la imagen"></div>
     
+    </div>
 </body>
 </html>
